@@ -1,0 +1,78 @@
+@media (min-width: 993px) and (max-width: 1200px) {
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contacts .center  {
+
+    border-left: none;
+    border-right: none;
+    height: 48px;
+}
+}
+
+
+@media (min-width: 550px) and (max-width: 768px) {
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contacts .center  {
+
+    border-left: none;
+    border-right: none;
+    height: 48px;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 33%;
+    margin-top: -16px;
+    outline: 0;
+    width: 29px;
+    height: 87px;
+    text-indent: -9999px;
+    z-index: 9999;
+}
+}
+
+@media (max-width: 549px) {
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contacts .center  {
+
+    border-left: none;
+    border-right: none;
+    height: 48px;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 28%;
+    margin-top: -21px;
+    outline: 0;
+    width: 29px;
+    height: 89px;
+    text-indent: -9999px;
+    z-index: 9999;
+}   
+}
